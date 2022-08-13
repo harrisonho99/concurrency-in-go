@@ -1,7 +1,7 @@
 package deadlock
 
 import (
-	"fmt"
+	"concurency-in-go/c1/fmt"
 	"sync"
 	"time"
 )
@@ -23,12 +23,12 @@ func printSum(v1, v2 *value) {
 	v2.mu.Unlock()
 }
 
-// see image 1.1 
+// see image 1.1
 func GenDeadlock() {
 
 	var a, b value
 	wg.Add(2)
-
+	// both a and b are lock each other
 	go printSum(&a, &b)
 	go printSum(&b, &a)
 

@@ -13,9 +13,9 @@ const (
 )
 
 func Println(i ...interface{}) {
-	fmt.Printf(InfoColor+"\n", i...)
+	fmt.Printf(DebugColor+"\n", i...)
 }
 
 func Printf(i ...interface{}) {
-	fmt.Printf(InfoColor, fmt.Sprintf(i[0].(string), i[1:]...))
+	fmt.Printf(DebugColor, fmt.Sprintf(i[0].(string), i[1:]...))
 }
