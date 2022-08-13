@@ -1,1 +1,1 @@
-# concurency-in-go
+# Concurency in go
