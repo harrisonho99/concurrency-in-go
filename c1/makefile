@@ -6,3 +6,5 @@ build:
 run: clear
 	go run -race ${FILE}
 
+vet:
+	go vet .

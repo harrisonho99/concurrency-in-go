@@ -1,6 +1,6 @@
-# *Coffman Conditions* 
+# *Coffman Conditions*
 
-*  **One of conditions when deadlock occurs**
+* **One of conditions true when deadlock occurs**
 
 > **Mutual Exclusion**
 > A concurrent process holds exclusive rights to a resource at any one time.

@@ -1,3 +1,3 @@
-module concurency-in-go/c1
+module concurrency_in_go/c1
 
 go 1.17

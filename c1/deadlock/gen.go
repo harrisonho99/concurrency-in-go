@@ -1,7 +1,7 @@
 package deadlock
 
 import (
-	"concurency-in-go/c1/fmt"
+	"concurrency_in_go/c1/fmt"
 	"sync"
 	"time"
 )
@@ -24,7 +24,7 @@ func printSum(v1, v2 *value) {
 }
 
 // see image 1.1
-func GenDeadlock() {
+func Gen() {
 
 	var a, b value
 	wg.Add(2)
